@@ -1,7 +1,15 @@
-.container{
-    width: 900px;
-    /* height: 400px; */
-    border: 2px solid black;
-    display: flex;
-    flex-direction: row;
+.grid-container{
+    width: 300px;
+    height: 600px;
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 20px auto;
+    display: grid;
+    background-color: rgb(241, 236, 230);
+}
+.header{
+    /* grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: brown; */
+    grid-column: 1 / 4;
 }
